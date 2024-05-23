@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: gray;
+}
+
+.card {
+    width: 300px;
+    height: 180px;
+    background-color:black;
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+}
+/* 
+ .chip {
+    width: 50px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}  */
+.card-number {
+    font-size: 18px;
+    color:white;
+    /* margin-bottom: 15px; */
+    padding-left: 45px;
+    justify-content: space-evenly;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+    /* .card-info {
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+    } */
+    /* ............................................................ */
+    /* .card-holder {
+        font-size: 14px;
+    }
+
+    .date {
+        font-size: 14px;
+    } */
+
+    /* ............................................................... */
+.visa{
+    height: 35px;   
+    width: 55px;
+    margin-left: 240px;
+    background-color: red;
+}
+.master{
+    height: 25px;
+    width: 45px;
+    background-color: brown;
+    
+    
+}
+
+.chip{
+    height:20px;
+    width:30px;
+    border: none;
+position: relative;
+text-align: center;
+margin-left: 142px;
+right:125px;
+margin-top: 5px;
+
+}
+.date{
+    padding-left: 60px;
+    font-size: 9px;
+    color: darkred;
+
+}
+.card-holder{
+    color: white;
+    font-size: 9px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+
+}
+.bank{
+    color: white;
+    padding-left:10px;
+}
